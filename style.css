@@ -12,7 +12,6 @@ body {
   padding-top: 32px;
   margin-left: 32px;
   padding-bottom: 32px;
-
   width: 330px;
 }
 .footer-left-top {
@@ -67,4 +66,32 @@ body {
   margin-right: 32px;
   padding-bottom: 32px;
   width: 541px;
+}
+@media screen and (max-width: 969px) {
+  .footer-main {
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer-right {
+    width: 85%;
+  }
+  .footer-right p {
+    text-align: center;
+  }
+  .footer-left-top {
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-left {
+    padding-top: 0px;
+    width: 80%;
+  }
+  .footer-left-bottom {
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-left-bottom a {
+    padding-bottom: 10px;
+  }
 }
